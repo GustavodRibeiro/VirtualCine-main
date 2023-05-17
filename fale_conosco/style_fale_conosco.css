@@ -1,0 +1,89 @@
+body,html
+{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(9, 10, 36);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  overflow:hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(to top, rgba(6, 31, 68, 0.582), rgba(255,0,0,0));
+}
+.chat
+{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 5%;
+  width: 80%;
+  top: 710px;
+  left: 200px;
+  position: fixed;
+  bottom: 10px;
+}
+.mensagens_
+{
+  margin-top: 95px;
+  height: 550px;
+  width: 80%;
+  background-color: rgb(236, 236, 236);
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  overflow-y: scroll;
+  border-radius: 5px;
+  border: solid;
+  border-color: rgb(255, 255, 255);
+  padding-left: 15px;
+}
+::-webkit-scrollbar 
+{
+    width: 14px;
+    background-color: #F5F5F5;
+}
+  
+::-webkit-scrollbar-thumb 
+{
+    background-color: #555;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover 
+{
+    background-color: #3b3b3b;
+}
+.caixa
+{
+  width: 70%;
+  height: 80%;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  padding-left: 10px;
+}
+button.botao_enviar
+{
+  height: 95%;
+  width: 10%;
+  border-radius: 20px;
+}
+.barra
+{
+    width: 85%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    animation: slideInDown 1.5s;
+    position: fixed;
+    top: 10px;
+}
